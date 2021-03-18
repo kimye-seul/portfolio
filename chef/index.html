@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <title>셰프하우스</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/ci_favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="banner_wrap">
+            <div class="banner">
+                <a href="javascript:;"><img src="images/evt_bnr_img01.jpg" alt="도시 파이터"></a>
+                <form action="">
+                    <fieldset>
+                        <legend>하루동안 보지않기</legend>
+                        <label for="btn_chk">
+                            <span>하루동안 보지 않기</span>
+                            <input type="checkbox" id="btn_chk">
+                        </label>
+                    </fieldset>
+                </form>
+                <button type="button" class="btn_close">닫기</button>
+            </div>
+        </div>
+        <a href="javascript:;" class="btn_top">TOP</a>
+        <div class="m_menu_wrap">
+            <div class="m_menu_bg"></div>
+            <div class="m_menu_con">
+                <div class="m_menu_header">
+                    <h2>로그인을 통하여<br>더 많은 정보를 확인해 보세요.</h2>
+                    <p>
+                        <button type="button" class="btn_login">로그인</button>  
+                        <button type="button" class="btn_join">회원가입</button>  
+                    </p>
+                </div>
+                <ul class="m_gnb">
+                    <li><a href="javascript:;">브랜드</a></li>
+                    <li><a href="javascript:;">도시락</a></li>
+                    <li><a href="javascript:;">푸드트럭</a></li>
+                    <li><a href="javascript:;">케이터링</a></li>
+                    <li><a href="javascript:;">셰프이야기</a></li>
+                </ul>
+                <ul class="m_util">
+                    <li><a href="javascript:;">입점문의</a></li>
+                    <li><a href="javascript:;">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <div class="header_inner">
+                <div class="header_top">
+                    <ul class="util">
+                        <li><a href="javascript:;">로그인</a></li>
+                        <li><a href="javascript:;">회원가입</a></li>
+                        <li><a href="javascript:;">입점문의</a></li>
+                        <li><a href="javascript:;">고객센터</a></li>
+                    </ul>
+                </div>
+                <div class="header_bottom">
+                    <h1><a href="index.html">로고</a></h1>
+                    <ul class="gnb">
+                        <li><a href="javascript:;">브랜드</a></li>
+                        <li><a href="javascript:;">도시락</a></li>
+                        <li><a href="javascript:;">푸드트럭</a></li>
+                        <li><a href="javascript:;">케이터링</a></li>
+                        <li><a href="javascript:;">셰프이야기</a></li>
+                        <li class="order_list"><a href="javascript:;">주문내역</a></li>
+                    </ul>
+                    <button class="m_menu" type="button">
+                        <span>메뉴</span>
+                        <span>메뉴</span>
+                        <span>메뉴</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="visual">
+                <!-- Slider main container -->
+                <div class="swiper-container visual_slide">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/main_visual_img03.jpg" alt="감동도시락" class="visual_bg">
+                                <img src="images/main_visual_pc_txt03.png" alt="감동도시락" class="visual_txt pc_txt">
+                                <img src="images/main_visual_mob_txt03.png" alt="감동도시락" class="visual_txt mob_txt">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/main_visual_img01.jpg" alt="맞춤형도시락" class="visual_bg">
+                                <img src="images/main_visual_pc_txt01.png" alt="맞춤형도시락" class="visual_txt pc_txt">
+                                <img src="images/main_visual_mob_txt01.png" alt="맞춤형도시락" class="visual_txt mob_txt">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/main_visual_img02.jpg" alt="일반형도시락" class="visual_bg">
+                                <img src="images/main_visual_pc_txt02.png" alt="일반형도시락" class="visual_txt pc_txt">
+                                <img src="images/main_visual_mob_txt02.png" alt="일반형도시락" class="visual_txt mob_txt">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="sec1_inner">
+                    <h2>HOUSE MENU</h2>
+                    <p class="sub_txt">엄선된 재료로 선택한 프리미엄 도시락</p>
+                    <!-- Slider main container -->
+                    <div class="swiper-container sec1_slide">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="images/menu_intro_img01.jpg" alt="일반도시락"></div>
+                            <div class="swiper-slide"><img src="images/menu_intro_img02.jpg" alt="맞춤도시락"></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <ul class="slide_txt">
+                            <li>
+                                <h3>간편한 식사, 건강한 한끼<br><span>일반 도시락</span></h3>
+                                <p class="slide_subtxt">
+                                    한식을 주재료로 하며 먹기 편하고 간편한 덮밥부터 정통한식과 퓨전일품요리로 잘 차려진 한상같은 수제도시락까지 다양한 도시락형태의 건강한 웰빙도시락
+                                </p>
+                                <a href="javascript:;" class="btn_more">자세히 보기</a>
+                            </li>
+                            <li class="on">
+                                <h3>즐거운 식사, 새로운 힐링<br><span>맞춤 도시락</span></h3>
+                                <p class="slide_subtxt">
+                                    가격, 인원,연령대에 따라 맞춤형으로 제공됩니다.<br>
+                                    셰프하우스는 어린이를 위한 튀김과 고연령층을 위한 수제 밑반참이 모두 가능한 노하우를 보유하고 있습니다.
+                                </p>
+                                <a href="javascript:;" class="btn_more">자세히 보기</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="sec2_inner">
+                    <h2>BRAND STORY</h2>
+                    <p class="sub_txt">모두가 상생할 수 있는 방향을 제시하다</p>
+                    <!-- Slider main container -->
+                    <div class="swiper-container sec2_slide">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/ico_bs_nth1_off.png" alt="chef house">
+                                    <h3>CHEF HOUSE</h3>
+                                    <p class="story_txt">
+                                        한식레시피를 중심으로 정통한식과 현대적감각의 퓨전한식으로 발전시킨 단체 도시락 전문 브랜드, 셰프하우스
+                                    </p>
+                                    <span>자세히보기</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/ico_bs_nth2_off.png" alt="INGREDIENTS">
+                                    <h3>INGREDIENTS</h3>
+                                    <p class="story_txt">
+                                        모든 식재료는 고객분들이<br>안심하고 드실 수 있도록<br>엄격한 기준 아래 선별됩니다.
+                                    </p>
+                                    <span>자세히보기</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/ico_bs_nth3_off.png" alt="CSR">
+                                    <h3>CSR</h3>
+                                    <p class="story_txt">
+                                        셰프하우스는 식지 않는<br>뜨거운 진심으로 따뜻한 오늘,<br>따뜻한 세상을 만듭니다.
+                                    </p>
+                                    <span>자세히보기</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="sec3_inner">
+                    <h2>HOUSE NEWS</h2>
+                    <p class="sub_txt">셰프하우스의 새소식입니다</p>
+                    <div class="img_wrap">
+                        <a href="javascript:;"><img src="images/evt_bnr_img00_v2.jpg" alt="도시 파이터"></a>
+                    </div>
+                    <ul class="sec3_right"> 
+                        <li>
+                            <h3>공지사항</h3>
+                            <ul class="notice">
+                                <li><span class="txt"><a href="javascript:;">8월 20일 공지사항입니다</a></span><span class="date">2019-08-20</span></li>
+                                <li><span class="txt"><a href="javascript:;">홈페이지를 새로 오픈했습니다</a></span><span class="date">2019-07-30</span></li>
+                            </ul>
+                            <a href="javascript:;" class="btn_noticemore">더보기</a>
+                        </li>
+                        <li>
+                            <h3>고객센터</h3>
+                            <h4>1599-8783</h4>
+                            <p class="time">이용시간 평일 09:00~18:00<br>단, 매월 둘째주 수요일 09:00~17:30</p>
+                            <a href="javascript:;" class="btn_noticemore">더보기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="sec4_inner">
+                    <!-- Slider main container -->
+                    <div class="swiper-container sec4_slide">
+                        <div class="sec4_tit">
+                            <h4>리얼후기<br><span>#셰프이야기</span></h4>
+                        </div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real1.jpg" alt="리얼후기1">
+                                    <p class="real_txt">서울대 병원 세미나 다과 도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real2.jpg" alt="리얼후기2">
+                                    <p class="real_txt">jtn&bravi 신의정배우- 스텝간식도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real3.jpg" alt="리얼후기3">
+                                    <p class="real_txt">뮤지컬 에쿠우스 스텝 간식 도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real4.jpg" alt="리얼후기4">
+                                    <p class="real_txt">SBS 인기가요 온리원오브 서포트 도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real5.jpg" alt="리얼후기5">
+                                    <p class="real_txt">단체세미나도시락 병원도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real6.jpg" alt="리얼후기6">
+                                    <p class="real_txt">SBS최하정의파워타임 '변진섭'님 간식서포트2</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real7.jpg" alt="리얼후기7">
+                                    <p class="real_txt">배우유지태님도시락 - 점심</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real8.jpg" alt="리얼후기8">
+                                    <p class="real_txt">배우 현빈님 도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real9.jpg" alt="리얼후기9">
+                                    <p class="real_txt">KBS뮤직뱅크로 보내드린 러블리즈 서포트도시락</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:;">
+                                    <img src="images/real10.jpg" alt="리얼후기10">
+                                    <p class="real_txt">sbs아침드라마 수상한 장모</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer_inner">
+                <p class="ft_gnb"><a href="javascript:;">개인정보처리방침</a></p>
+                <p class="ft_txt">
+                    고객센터 1599-8783 (이용시간 평일 09:00~18:00 / 단, 매월 둘째주 수요일 09:00~17:30)
+                </p>
+                <p class="ft_txt">
+                    <span>대표자 : 이종열</span>인천광역시 미추홀구 용현동 181-17 1층 셰프하우스<br>
+                    COPYRIGHT©CHEFHOUSE. ALL RIGHTS RESERVED.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
